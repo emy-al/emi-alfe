@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body{
-    color: rgb(65, 0, 27);
+    color: rgb(0, 255, 242);
     background: rgb(194, 252, 252);
     margin:0px;
 }
@@ -10,7 +10,7 @@ header{
     border-bottom: solid 2px rgb(0, 0, 0);
     padding: 20px;
     font-size: 32px;
-    color: rgb(245, 148, 180);
+    color: rgb(0, 202, 209);
 }
 
 section{
@@ -19,7 +19,7 @@ section{
     padding-top: 80px;
 }
 chamada{
-    background: rgb(255, 40, 105);
+    background: rgb(255, 170, 196);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -36,4 +36,19 @@ h1{
 
 p{
     font-size: 20px;
+}
+
+img { 
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.catergoria {
+    padding-left: 20px;
+     padding-right: 20px;
 }
